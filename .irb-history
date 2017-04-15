@@ -1,0 +1,17 @@
+reinstall_apps
+start_test_server_in_background
+query("*")
+query("*")
+start_test_server_in_background
+query("*")
+reinstall_apps
+touch("* id:'btnLivros')
+start_test_server_in_background
+start_test_server_in_background
+exit
+exit
+exit
+start_test_server_in_background
+touch("* id:'btnLivros'")
+query("*")
+exit
