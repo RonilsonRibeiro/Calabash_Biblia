@@ -1,17 +1,50 @@
-reinstall_apps
-start_test_server_in_background
 query("*")
-query("*")
-start_test_server_in_background
-query("*")
-reinstall_apps
-touch("* id:'btnLivros')
-start_test_server_in_background
-start_test_server_in_background
-exit
-exit
+xit
 exit
 start_test_server_in_background
-touch("* id:'btnLivros'")
+query("*")
+query("buttom")
+query("button")
+touch("* id:'btnPesquisa'")
+query("button")
+query("*")
+exit
+query('*')
+start_test_server_in_background
+query('*')
+query('* button')
+query('button')
+query('button')
+exit
+query('*')
+query('*')
+start_test_server_in_background
+query('*')
+start_test_server_in_background
+query("button")
+touch("* id: 'btnPesquisa'")
+touch("* id: btnPesquisa")
+touch(query"* id: btnPesquisa")
+start_test_server_in_background
+touch("* id: btnPesquisa")
+start_test_server_in_background
+touch("* id:'btnPesquisa'")
+query("*")
+keyboard_enter_text "porque deus amou o mundo de tal maneira"
+touch("* id:'imgbtnPesquisa'")
+query("*")
+query("ImageButton")
+query("ImageButton")[0]
+touch("query('ImageButton')[0]")
+touch(query("ImageButton")[0])
+start_test_server_in_background
+keyboard_enter_text "porque deus amou o mundo de tal maneira"
+touch("* id:'imgbtnPesquisa'")
+touch(query("ImageButton")[0])
+touch(query("ImageButton")[0])
+touch(query("ImageButton")[0])
+query("*")
+query("* contentDescription:'Interstitial close button'")
+touch(query("* contentDescription:'Interstitial close button'"))
 query("*")
 exit
